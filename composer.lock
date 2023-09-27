@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "660c8ea934ba09d4550e5e2343941b04",
+    "content-hash": "cbe10468cfa2780edaeff3f01bdcf439",
     "packages": [
         {
             "name": "rtgroup/dbconnect",
@@ -12,13 +12,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/RT-Group-Tech/dbconnect.git",
-                "reference": "920d9aaab9c4cbb934fabbedd0d22622a5524d1d"
+                "reference": "d729d65c9ecb232eaf79f2b109fce2565ae12a0d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/RT-Group-Tech/dbconnect/zipball/920d9aaab9c4cbb934fabbedd0d22622a5524d1d",
-                "reference": "920d9aaab9c4cbb934fabbedd0d22622a5524d1d",
+                "url": "https://api.github.com/repos/RT-Group-Tech/dbconnect/zipball/d729d65c9ecb232eaf79f2b109fce2565ae12a0d",
+                "reference": "d729d65c9ecb232eaf79f2b109fce2565ae12a0d",
                 "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0"
             },
             "default-branch": true,
             "type": "library",
@@ -39,7 +42,7 @@
                 "issues": "https://github.com/RT-Group-Tech/dbconnect/issues",
                 "source": "https://github.com/RT-Group-Tech/dbconnect/tree/master"
             },
-            "time": "2023-09-26T13:25:49+00:00"
+            "time": "2023-09-27T08:29:15+00:00"
         }
     ],
     "packages-dev": [],
@@ -50,7 +53,9 @@
     },
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": ">=8.0"
+    },
     "platform-dev": [],
     "plugin-api-version": "2.6.0"
 }
