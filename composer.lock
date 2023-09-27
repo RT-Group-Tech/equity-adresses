@@ -1,0 +1,56 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "660c8ea934ba09d4550e5e2343941b04",
+    "packages": [
+        {
+            "name": "rtgroup/dbconnect",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/RT-Group-Tech/dbconnect.git",
+                "reference": "920d9aaab9c4cbb934fabbedd0d22622a5524d1d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/RT-Group-Tech/dbconnect/zipball/920d9aaab9c4cbb934fabbedd0d22622a5524d1d",
+                "reference": "920d9aaab9c4cbb934fabbedd0d22622a5524d1d",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Rtgroup\\Dbconnect\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Chris Tenday",
+                    "email": "ctenday@gmail.com"
+                }
+            ],
+            "description": "Bibliothèque pour la gestion de la base des données et actions sql",
+            "support": {
+                "issues": "https://github.com/RT-Group-Tech/dbconnect/issues",
+                "source": "https://github.com/RT-Group-Tech/dbconnect/tree/master"
+            },
+            "time": "2023-09-26T13:25:49+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "rtgroup/dbconnect": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}

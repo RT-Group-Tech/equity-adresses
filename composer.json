@@ -1,0 +1,20 @@
+{
+    "name": "rtgroup/payroll-adresses",
+    "description": "Composant pour la gestion des adresses",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Rtgroup\\PayrollAdresses\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Chris Tenday",
+            "email": "ctenday@gmail.com"
+        }
+    ],
+    "require": {
+        "rtgroup/dbconnect": "dev-master",
+        "php": ">=8.0"
+    }
+}
