@@ -16,9 +16,9 @@ class Adresse
 
     public function __construct($province,$commune,$quartier,$avenue,$numero)
     {
-        $dbConfig=new Dbconfig(dbHostname: "localhost",dbUsername: "root",dbUserPassword: "",dbName: "milleniumpayroll");
+        global $dbconnect;
 
-        $this->dbconnect=new Dbconnect($dbConfig);
+        $this->dbconnect=$dbconnect;
 
         $this->province=$province;
         $this->commune=$commune;
